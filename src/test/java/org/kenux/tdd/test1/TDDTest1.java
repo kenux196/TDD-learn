@@ -1,14 +1,11 @@
 package org.kenux.tdd.test1;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.kenux.tdd.domain.Dollar;
 import org.kenux.tdd.domain.Franc;
-import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@SpringBootTest
 public class TDDTest1 {
 
     @Test
