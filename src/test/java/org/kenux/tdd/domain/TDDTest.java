@@ -1,4 +1,4 @@
-package org.kenux.tdd.test1;
+package org.kenux.tdd.domain;
 
 import org.junit.jupiter.api.Test;
 import org.kenux.tdd.domain.Dollar;
