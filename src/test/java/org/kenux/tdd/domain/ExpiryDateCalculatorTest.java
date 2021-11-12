@@ -115,6 +115,17 @@ class ExpiryDateCalculatorTest {
                 LocalDate.of(2021,5, 31));
     }
 
+    @Test
+    @DisplayName("십만원을 납부하면 1년 제공")
+    void calculateExpiryFor10만원납부_1년제공() {
+        assertExpiryDate(
+                PayData.builder()
+                        .billingDate(LocalDate.of(2021,1,1))
+                        .payAmount(100_000)
+                        .build(),
+                LocalDate.of(2022, 1, 1));
+    }
+
     private void assertExpiryDate(PayData payData, LocalDate expectedExpiryDate) {
         ExpiryDateCalculator calculator = new ExpiryDateCalculator();
         LocalDate realExpiryDate = calculator.calculateExpiryDate(payData);
