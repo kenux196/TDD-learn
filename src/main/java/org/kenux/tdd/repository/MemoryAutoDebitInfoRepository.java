@@ -1,5 +1,6 @@
-package org.kenux.tdd.domain;
+package org.kenux.tdd.repository;
 
+import org.kenux.tdd.domain.AutoDebitInfo;
 import org.kenux.tdd.repository.AutoDebitInfoRepository;
 
 import java.util.HashMap;
