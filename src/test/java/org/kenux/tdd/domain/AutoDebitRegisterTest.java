@@ -3,6 +3,7 @@ package org.kenux.tdd.domain;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.kenux.tdd.repository.AutoDebitInfoRepository;
+import org.kenux.tdd.repository.MemoryAutoDebitInfoRepository;
 
 import java.time.LocalDateTime;
 
