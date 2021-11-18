@@ -37,7 +37,7 @@ public class AutoDebitRegisterStubTest {
 
     @Test
     void notYetRegistered_newInfoRegistered() {
-        AutoDebitReq req = new AutoDebitReq("user1", "123412341234");
+        AutoDebitReq req = new AutoDebitReq("user1", "1234123412341234");
         RegisterResult result = this.register.register(req);
 
         AutoDebitInfo saved = memoryRepository.findOne("user1");

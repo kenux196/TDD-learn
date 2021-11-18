@@ -23,6 +23,7 @@ dependencies {
     testImplementation 'org.assertj:assertj-core:3.21.0'
     testImplementation 'org.mockito:mockito-core:4.0.0'
     testImplementation 'org.mockito:mockito-junit-jupiter:4.0.0'
+    testImplementation 'com.github.tomakehurst:wiremock:2.27.2'
 
     implementation 'org.projectlombok:lombok:1.18.22'
     annotationProcessor 'org.projectlombok:lombok:1.18.22'
