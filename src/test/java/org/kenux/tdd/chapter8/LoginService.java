@@ -16,7 +16,7 @@ public class LoginService {
     public LoginResult login(String id, String pw) {
         int resp = authService.authenticate(id, pw);
         if (resp == -1) {
-            return LoginResults.badAuthKey();
+            return LoginResult.badAuthKey();
         }
 
         if (resp == 1) {
